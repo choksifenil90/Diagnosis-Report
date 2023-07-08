@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Create Docx file using Docx.js in JS</title>
+  <!-- Add Docx.js CDN link -->
+    <script src="https://unpkg.com/docx-js/dist/docx.min.js"></script>
+</head>
+<body>
+  <button id="generateBtn">Generate Docx File</button>
+  <script>
+    // Create a new document
+    const doc = new window.docx.Document();
+
+    // Add a heading
+    const heading = new window.docx.Heading1("My Document");
+    doc.addParagraph(heading);
+
+    // Add some text
+    const text = "This is my first Docx file created using Docx.js";
+    const paragraph = new window.docx.Paragraph(text);
+    doc.addParagraph(paragraph);
+
+    // Generate the document
+    const packer = new window.docx.Packer();
+
+    document.getElementById("generateBtn").addEventListener("click", () => {
+      packer.toBlob(doc).then((blob) => {
+        // Save the document
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        document.body.appendChild(a);
+        a.href = url;
+        a.download = "document.docx";
+        a.click();
+        window.URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+      });
+    });
+  </script>
+</body>
+</html>

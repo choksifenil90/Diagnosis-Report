@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Diagnosis Report</title>
+	<link rel="shortcut icon" href="#">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/jspdf.js"></script>
+	<script src="js/mammothjs.js"></script>
+	<script src="js/file-saver.js"></script>
+    <script src="js/docx.js"></script>
+
+</head>
+<body>
+	<div id="spin-loader" class=""></div>
+	<heading>
+		<center><h1 class="title">Statistics Report Generator</h1></center>
+	</heading>
+	<div class="file-upload-section">
+		<!-- <div class="files">
+			<label for="inputFileDSM5">Input CSV file with all DSM-5 diagnoses:</label>
+			<input type="file" id="inputFileDSM5" accept=".csv" value="E:\Niks\Diagnosis Report\code\DSMDiagnosisOneCategory.csv">
+		</div> -->
+		<br>
+		<div class="files">
+			<label for="inputFileMedicalReport">Input text file with medical report:</label>
+			<input type="file" id="inputFileMedicalReport" accept=".txt,.doc,.docx" multiple>
+		</div>
+		<br>
+		<div class="files">
+			<button type="button" id="extract-diagnosis">Extract Diagnosis</button>
+		</div>
+
+		<!-- <div id="diagnosis"></div> -->
+		<div class="container"></div>
+	</div>
+	<br>
+	<div class="main-rich-text-editor-section">
+		<div class="rich-text-editor choose-format">
+			<label>Extracted Diagnostics Report: </label>
+			<textarea id="ta-report" class="ta-report"></textarea>
+		</div>
+		<div class="rich-text-editor choose-format">
+			<label>Extracted Billing Report: </label>
+			<textarea id="ta-report-billing" class="ta-report"></textarea>
+		</div>
+		<div class="radiobutton">
+			<div class="choose-format">
+				<label>Choose Format to Export: </label>
+			</div>
+			<div class="formats">
+				<input type="radio" class="rdbtns" id="rdtxt" name="radio-txt-pdf" value="txt" checked>
+				<label for="rdtxt">.txt</label>
+			  
+				<input type="radio" class="rdbtns" id="rdpdf" name="radio-txt-pdf" value="pdf">
+				<label for="rdpdf">.pdf</label>
+			  
+				<!-- <input type="radio" class="rdbtns" id="rddoc" name="radio-txt-pdf" value="doc">
+				<label for="rddoc">.doc</label> -->
+			  </div>
+			<div class="export-format-btn">
+				<button type="button" id="ExportFormat" class="t-export-format">Export <span id="dynamic-format-name">.txt</span></button>
+			</div>
+		</div>
+	</div>
+
+	<div id="TempId"></div>
+<script src="js/process-report.js"></script>
+</body>
+</html>

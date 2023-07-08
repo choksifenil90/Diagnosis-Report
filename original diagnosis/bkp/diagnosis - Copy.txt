@@ -1,0 +1,56 @@
+
+Name: Some Body
+D.O.B: January 1, 2022
+Gender: Male
+MHSC: 123456
+PHIN: 123456789
+Date of Assessment: March 8, 2023
+Referring Physician: Dr.  Who Ever
+Clinic: Some Clinic
+Date of Referral: Dec. 1, 2021
+Reason for Referral:
+Patient was referred for psychiatric assessment.
+Psychiatric Assessment:
+Patient seen from 4:00pm - 5:00pm by virtual telephone/virtual video/live visit due to pandemic restrictions.  Risks/benefits, limits of confidentiality, and limits of privacy inherent in this type of visit was explained and patient consented to this type of visit.  Discussed with family doctor before/after appointment.  Shared Care Counsellor attended visit.  Resident attended session.  Medical student attended visit.
+ID: 33 year old male
+History of Present Illness:
+Patient has had multiple past depressive episodes in his life. Patient first had depressive symptoms last winter in the context of no known triggers.  Patient's depressive episodes generally last months. Patient is currently depressed.  He has a depressed, flat, and tearful mood and decreased motivation, decreased energy, and decreased interest in activities.
+Though he is on sertraline it is not helping him.
+Patient's current psychosocial stressors include work.
+Patient does not have symptoms consistent with a Bipolar D/O, Anxiety D/O, OCD, Psychotic D/O, PTSD, or an Eating D/O.
+Past Psychiatric History:
+Patient's past psychiatric diagnoses include MDD.
+Patient does not have any past history of visits with Psychiatrists/Psychologists/Counsellors, Psychiatric Hospitalizations, or suicide attempts/self-harm episodes.  He has not tried any psychotropic medications in the past.
+Past Medical History:
+GERD
+Asthma
+He does not have a history of any head injuries or seizure disorders.
+Relevant Medications:
+Sertraline 200mg po od
+Allergies:
+NKDA
+Family History:
+None reported
+Social History:
+Patient is single.  He has no children.  He has 1 brother.  His parents are deceased
+Patient's highest level of education is an undergraduate degree.  He works at Walmart.   
+Patient had a cannabis addiction in the past.  He has heavy and regular use of alcohol.  He does not use tobacco or illicit substances.
+Legal History:
+None
+Mental Status Examination:
+Normal.
+Impression:
+33 year old male with diagnosis of MDD, Delirium, Cannabis   Use Disorder in sustained remission, Autism Spectrum Disorder, Hallucinogen Persisting Perception Disorder, Nonsuicidal Self-Injury  and  Alcohol Use Disorder, Schizophrenia.
+Recommendations:
+1. Patient can stop sertraline and switch to venlafaxine XR by crosstitration.
+2. Patient can be referred for specialist Neurologist referral to Dr. A. Person(referred for specialist-yes).
+3. I will set up another appointment with this patient for followup (follow up-yes).
+4. Counselling/Therapy would likely be helpful for this patient.  Patient can be referred to Shared Care Counsellor by family doctor(shared care counsellor-yes).
+Resources for Counselling/Therapy in the community that can be used as needed include:
+-Some Resource
+5. Patient is encouraged to incorporate a healthy diet, good sleep hygiene, an exercise regimen, and a meditation/mindfulness practice into his lifestyle.
+6. If patient ever feels he is suffering substantial mental deterioration, that he is unsafe, or that he may harm himself or others he can use Emergency resources.
+
+Psychiatrist: John Doe, MD, FRCPC
+
+::EOF::
