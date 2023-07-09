@@ -225,8 +225,6 @@ function contentGenerator(arrDataToBeFetched, text, dsm5Diagnoses){
     var tempArr = [];
     var tempArrBilling = [];
 
-    var array = ['apple', 'banana', 'cherry'];
-
     // var uppercaseArray = arrDataToBeFetched.map(function(value) {
     // return value.toUpperCase();
     // });
@@ -585,7 +583,9 @@ function contentGenerator(arrDataToBeFetched, text, dsm5Diagnoses){
 function extractWordsWithCapitalCharacters(text) {
 
     window.arrayData = [];
+    document.querySelector("#TempId").style.display = "block";
     var arrHtmlSplitted = document.querySelector("#TempId").innerText.split("*****");
+    document.querySelector("#TempId").style.display = "none";
 
     for (var val in arrHtmlSplitted) {
     var lines = arrHtmlSplitted[val].split("\n");
